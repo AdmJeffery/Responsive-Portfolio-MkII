@@ -4,7 +4,7 @@ import "./style.css";
 
 function Navbar() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light" style="background-color: #b19a78;">
         <Link className="navbar-brand" to="/">
           Pupster
         </Link>

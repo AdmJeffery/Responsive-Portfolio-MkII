@@ -1,11 +1,11 @@
 import React from "react"
 
-function Project(props){
+function Project({src, alt, deployed, linkone, repo, linktwo}){
     return (
         <div>
-        <img src = {props.src} alt = {props.alt} height = "200" width = "300"/>
-        <p><a className = "homework-link" href = {props.deployed}>{props.linkone}</a></p>
-        <p><a className = "homework-link" href = {props.repo}>{props.linktwo}</a></p>
+        <img src = {src} alt = {alt} height = "200" width = "300"/>
+        <p><a className = "homework-link" href = {deployed}>{linkone}</a></p>
+        <p><a className = "homework-link" href = {repo}>{linktwo}</a></p>
         </div>
     );
 }
