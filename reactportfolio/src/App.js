@@ -1,7 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import About from "./pages/About.js";
+import Portfolio from "./pages/Portfolio.js";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper";
 function App() {
   return (
     <div className="App">
