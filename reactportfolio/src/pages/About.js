@@ -8,7 +8,7 @@ import Footer from "../components/Footer/index.js"
 function About(){
     return(
         <div>
-            <Navbar/>
+            
             <Container>
                 <Row>
                     <Col size = "md-8">
@@ -35,6 +35,17 @@ function About(){
               <li><a href="https://www.linkedin.com/in/ammon-jeffery-2b51b9165/">LinkedIn</a></li>
               <li><a href="https://docs.google.com/document/d/1mYXi7oKkqpVGQX2Cs72Q7uDiB7kYidUBK1Llflhz9p0/edit?usp=sharing">Resume</a></li>
             </ul>  
+                    </Col>
+                </Row>
+                <hr/>
+                <Row>
+                    <Col size = "md-12">
+                    <p>Contact me by:</p>
+            <ul>
+              <li>Email: savingphace@gmail.com</li>
+              <li>Phone: (801) 592-4094</li>
+            </ul>
+            
                     </Col>
                 </Row>
             </Container>

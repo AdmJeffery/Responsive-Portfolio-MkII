@@ -4,9 +4,9 @@ import "./style.css";
 
 function Navbar() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light" style="background-color: #b19a78;">
+      <nav className="navbar navbar-expand-lg navbar-light" style={{"background-color": "#b19a78"}}>
         <Link className="navbar-brand" to="/">
-          Pupster
+         Ammon Jeffery
         </Link>
         <div>
           <ul className="navbar-nav">
@@ -24,10 +24,10 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/discover"
-                className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                to="/Portfolio"
+                className={window.location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}
               >
-                portfolio
+                Portfolio
               </Link>
             </li>
         </ul>
